@@ -7,19 +7,19 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #f4f4f4;
+  background: linear-gradient(90deg, #ff6a00ce, #ee0978be);
   color: #333;
   padding: 30px;
   margin-top: 25px;
   margin-bottom: 25px;
+  animation: fadeIn 1s;
 }
 
 .header {
-  background: linear-gradient(90deg, #ff6a00, #ee0979);
   color: white;
   padding: 2rem 0;
-  text-align: center;
-  animation: fadeIn 1s;
+  margin-left: 15px;
+  padding-top: 0px;
 }
 
 .header h1 {
@@ -55,6 +55,8 @@ section {
   background: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   animation: slideIn 0.5s forwards;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .about, .skills, .projects, .achievements, .links {
@@ -79,8 +81,8 @@ h2 {
 }
 
 .card {
-  background: #ff6a00;
-  color: white;
+  background: #acf3fa;
+  color: rgba(161, 157, 157, 0.911);
   border-radius: 8px;
   padding: 1rem;
   flex: 1 1 calc(25% - 1rem);
@@ -120,4 +122,9 @@ h2 {
     transform: translateY(0);
     opacity: 1;
   }
+}
+
+.firstFlex1{
+  display: flex;
+  justify-content: space-evenly;
 }
