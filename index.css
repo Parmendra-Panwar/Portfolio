@@ -55,8 +55,6 @@ section {
   background: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   animation: slideIn 0.5s forwards;
-  margin-left: 15px;
-  margin-right: 15px;
 }
 
 .about, .skills, .projects, .achievements, .links {
@@ -126,5 +124,8 @@ h2 {
 
 .firstFlex1{
   display: flex;
-  justify-content: space-evenly;
+}
+
+.firstFlex1sec{
+  margin-right: 15px;
 }
